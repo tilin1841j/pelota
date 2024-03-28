@@ -1,0 +1,28 @@
+#importar los archivos en donde están definidas las clases
+
+
+from Pelota import pelota 
+
+#crear objetos de la clase pelota
+
+miPelota=pelota()
+laPelota=pelota()
+miPelota.mover()
+
+#crear objetos de la clase pelota
+
+lista=[]
+
+for in range(1000):
+    laPelota=pelota()
+    lista.append(laPelota)
+    
+from Pelota import pelota 
+
+laPelota=pelota()
+otraPelota=pelota()
+
+print(laPelota.y)
+print(otraPelota.y)
+#clase= descripción de una familia de clases.
+#POO= porque los que interactuan son los objetos
